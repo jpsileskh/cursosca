@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0,23,45);
+    background: linear-gradient(45deg, rgb(0, 8, 32) 0%, rgba(0,54,107,1) 40%, #ff0000d0 100%);
+    z-index: -101;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    height: 74%;
+    align-items: center;
+    justify-content: space-evenly;
+    color:#fff4f2;
+
+}
+header {
+    height: 14%;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin-bottom: 2rem;
+    box-shadow: 0 0 1em rgba(29, 9, 9, 0.664);
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    color: rgb(0, 54, 107);
+    margin-left: 3rem;
+    font-size: 36px;
+}
+header img {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#Background {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.divMax {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divMax:hover {
+    cursor: pointer;
+}
+
+.divBackFrente {
+    background-color: rgba(0, 41, 75, 0.747);
+    width: 100%;
+    height: 390px;
+    border-radius: 1rem;
+    box-shadow: -5px 5px 11px rgba(0, 34, 63, 0.63);
+    backdrop-filter: blur(5px);
+}
+
+.divBackTras {
+    width: 320px;
+    height: 390px;
+    background-color: #ff0000;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-26px);
+    padding: 3rem;
+    margin-top: 26px;
+    
+}
+.divImgdevs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.4rem;
+}
+.divImgdevs img {
+    border-radius: 5%;
+}
+.divNames {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.4rem;  
+}
+.divNames h3 {
+    font-size: 24px;
+}
+
+#linkConsulta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    margin-top: .4rem;
+}
+#linkConsulta a:link {
+    transition: all 150ms ease-in-out;
+    color: #ff0000;
+    text-decoration:none;
+}
+#linkConsulta a:visited {
+    color: #ff0000;
+    text-decoration:none;
+  }
+#linkConsulta a:hover {
+    color: #1f8fff;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.445);
+    padding: 1.5rem 0 0 1.5rem;
+    border-radius: 4%;
+    box-shadow: -5px 5px 11px rgba(0, 24, 46, 0.63);
+    transition: all 100ms ease-in-out;
+}
+footer:hover {
+    background-color: rgba(240, 248, 255, 0.589);
+    cursor: pointer;
+    transform: scale(1.08);
+    
+}
+
+footer img{
+    margin-bottom: 1rem;
+}
+
+#linkVoltar {
+    position: absolute;
+    right: 3rem;
+}
+#linkVoltar a:link {
+    transition: all 150ms ease-in-out;
+    color: rgb(0, 52, 97);
+    text-decoration:none
+}
+#linkVoltar a:visited {
+    color: rgb(0, 52, 97);
+}
+#linkVoltar a:hover {
+    color: #d10000ea;
+}

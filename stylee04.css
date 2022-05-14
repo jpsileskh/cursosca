@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0,23,45);
+    background: linear-gradient(45deg, rgb(0, 8, 32) 0%, rgba(0,54,107,1) 40%, #ff0000d0 100%);
+    z-index: -101;
+    overflow: hidden;
+}
+main {
+    display: flex;
+    height: 86.5%;
+    align-items: center;
+    justify-content: space-around;
+    color:#fff4f2;
+
+}
+header {
+    height: 13.5%;
+    background-color: rgba(255, 255, 255, 0.445);
+    margin-bottom: 2rem;
+    box-shadow: 0 0 1em rgba(29, 9, 9, 0.664);
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    color: rgb(0, 54, 107);
+    margin-left: 3rem;
+    font-size: 36px;
+}
+header img {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#sec1 {
+    margin-top: -10rem;
+}
+
+h2{
+    font-size: 28px;
+    color: white;
+    margin-left: 3rem;
+}
+table {
+    font-size: 22px;
+    color: white;
+    width: 560px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    border-collapse: collapse;
+}
+
+.trr{
+    border-bottom: 1px solid rgba(0, 41, 83, 0.247);
+    transition: all 200ms ease;
+    border-collapse: collapse;
+}
+.trrr:hover {
+    border-bottom: 1.5px solid rgba(230, 237, 255, 0.767);
+    cursor: pointer;
+    color: rgba(230, 237, 255, 0.767);
+}
+.tdd {
+    color: rgba(255, 0, 0, 0.842);
+}
+.trrr:hover .tdd {
+    color: rgba(230, 237, 255, 0.767);
+}
+
+#secPiechart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#BackChart {
+    width: 900;
+    height: 600;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.726);
+    z-index: -100;
+    border-radius: 5%;
+}
+
+#linkVoltar {
+    position: absolute;
+    right: 3rem;
+}
+#linkVoltar a:link {
+    transition: all 150ms ease-in-out;
+    color: rgb(0, 52, 97);
+    text-decoration:none
+}
+#linkVoltar a:visited {
+    color: rgb(0, 52, 97);
+}
+#linkVoltar a:hover {
+    color: #d10000ea;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.445);
+    padding: 1.5rem 0 0 1.5rem;
+    border-radius: 4%;
+    box-shadow: -5px 5px 11px rgba(0, 24, 46, 0.63);
+    transition: all 100ms ease-in-out;
+}
+footer:hover {
+    background-color: rgba(240, 248, 255, 0.589);
+    cursor: pointer;
+    transform: scale(1.08);
+    
+}
+
+footer img{
+    margin-bottom: 1rem;
+}
